@@ -21,6 +21,14 @@ public class CSSLocatorMethods {
 		Thread.sleep(3000);
 		driver.findElement(By.cssSelector("#categories>li:first-of-type")).click();
 		Thread.sleep(3000);
+		String strWaterMark  = driver.findElement(By.id("query")).getAttribute("placeholder");
+		
+		if (strWaterMark.contains("Enter a search term...")) {
+			System.out.println("Watermark in Search textbox is displayed as : " + strWaterMark);
+		} else {
+			System.out.println("Expected watermark - Enter a search term... is not matching with the actual watermark - " + strWaterMark);
+		}
+				
 		driver.quit();
 	}
 

@@ -36,6 +36,8 @@ public class StringManipulationsTest {
 			System.out.println("Name found is  : " + name);
 		}
 
+		String[] strText = asText3.split(" ");
+		System.out.println(asText3.join(">", strText));
 		
 	}
 

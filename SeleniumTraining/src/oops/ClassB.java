@@ -1,6 +1,6 @@
 package oops;
 
-public class ClassB extends ClassA {
+public class ClassB extends ClassA{
 	
 	public void userRegistration() {
 		System.out.println("User Regitration successful..!");

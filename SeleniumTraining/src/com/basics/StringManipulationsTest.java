@@ -23,7 +23,7 @@ public class StringManipulationsTest {
 		System.out.println(asText3.replaceAll("core java", "J2SE"));
 		System.out.println(asText3.isEmpty());
 		System.out.println(asText1.concat(" ").concat(asText2));
-		System.out.println(asText1.isBlank());
+		//System.out.println(asText1.isBlank());
 		System.out.println(asText3.lastIndexOf('e'));
 		String arrText[] = {"John","Sandhya","Naresh","Ravi","Teja","Kiran","Hari"};
 		

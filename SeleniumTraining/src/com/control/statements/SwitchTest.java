@@ -38,7 +38,7 @@ public class SwitchTest {
 	public static void main(String[] args) {
 		
 		SwitchTest st = new SwitchTest();
-		st.verifyDay("    MON  ");
+		st.verifyDay("thu");
 	}
 
 }
